@@ -1,7 +1,3 @@
-import React from 'react'
-import type { IFavourite } from '../../interface/Favourite'
-import ClinicCard from '../../components/shared_components/clinic_card/ClinicCard'
-import FavouriteCard from '../../components/shared_components/favourite_card/FavouriteCard'
 import { Link } from 'react-router'
 import type { IProduct } from '../../interface/Product'
 import MyProductCard from '../../components/shared_components/my_product_card/MyProductCard'

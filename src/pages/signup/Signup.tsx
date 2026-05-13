@@ -1,22 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Banner from "../../components/banner/Banner";
 import BreadcrumbComponent from "../../components/breadcrumb/Breadcrumb";
-import { faEnvelope, faLock, faMapLocation, faPhoneAlt, faQuestion, faTimes, faUser, faUserMd } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLock, faPhoneAlt, faQuestion, faTimes, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FieldArray, FormikProvider, useFormik } from "formik";
 import * as yup from "yup";
-import { Checkbox, FileInput, Tooltip } from "flowbite-react";
-import { useState } from "react";
+import { Checkbox, Tooltip } from "flowbite-react";
 import "leaflet/dist/leaflet.css";
-import { Icon } from "leaflet";
-import { MapContainer, TileLayer } from "react-leaflet";
 import { Link } from "react-router";
-
-const customIcon = new Icon({
-    iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
-    iconSize: [30, 30],
-    iconAnchor: [15, 30],
-    popupAnchor: [0, -30],
-});
 
 
 export default function Signup() {
@@ -30,7 +20,6 @@ export default function Signup() {
         console.log(values)
     }
 
-    const [markerPosition] = useState<[number, number]>([30.0444, 31.2357]);
 
 
     const validationSchema = yup.object({
@@ -53,7 +42,7 @@ export default function Signup() {
                 "phone-validation",
                 "Invalid phone number",
                 function (value) {
-                    const { path, parent } = this;
+                    const { path } = this;
                     const index = Number(path.match(/\d+/)?.[0]);
 
                     const phoneRegex = /^01[0-2,5]{1}[0-9]{8}$/;

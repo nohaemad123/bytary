@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import user_image from "../../assets/1.jpeg";
-import { faDeleteLeft, faFolderOpen, faThumbTack, faTrash } from "@fortawesome/free-solid-svg-icons";
+import { faFolderOpen, faThumbTack, faTrash } from "@fortawesome/free-solid-svg-icons";
 import { Tooltip } from "flowbite-react";
 
 

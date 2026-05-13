@@ -7,16 +7,8 @@ import * as yup from "yup";
 import { Checkbox, FileInput, Tooltip } from "flowbite-react";
 import { useState } from "react";
 import "leaflet/dist/leaflet.css";
-import { Icon } from "leaflet";
 import { MapContainer, TileLayer } from "react-leaflet";
 import { Link } from "react-router";
-
-const customIcon = new Icon({
-    iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
-    iconSize: [30, 30],
-    iconAnchor: [15, 30],
-    popupAnchor: [0, -30],
-});
 
 export default function ClinicRegister() {
 
@@ -49,7 +41,7 @@ export default function ClinicRegister() {
                 "phone-validation",
                 "Invalid phone number",
                 function (value) {
-                    const { path, parent } = this;
+                    const { path } = this;
                     const index = Number(path.match(/\d+/)?.[0]);
 
                     const phoneRegex = /^01[0-2,5]{1}[0-9]{8}$/;
