@@ -3,7 +3,6 @@ import { Link } from "react-router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
 import { useCategoryDetails } from "../../../hooks/useCategoryDetails";
-import TopicDetails from "../../../pages/topic_details/TopicDetails";
 
 interface LatestCardProps {
     blogDetails: Blog;

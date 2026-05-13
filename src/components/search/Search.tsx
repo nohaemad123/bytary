@@ -12,9 +12,7 @@ const customIcon = new Icon({
 });
 
 export default function MapWithSearch() {
-    const [markerPosition, setMarkerPosition] = useState<[number, number]>([
-        30.0444, 31.2357,
-    ]);
+    const markerPosition: [number, number] = [30.0444, 31.2357];
 
     return (
         <div className="relative w-full">

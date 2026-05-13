@@ -1,5 +1,3 @@
-import { Modal } from "flowbite-react";
-import type { Comment } from "../../../interface/Comment";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
@@ -10,7 +8,6 @@ interface ModalProps {
 }
 
 export default function ReplyComponent({ type, data, onClose }: ModalProps) {
-    // if (!isOpen) return null;
 
     return (
         <>

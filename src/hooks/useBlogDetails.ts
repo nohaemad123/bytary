@@ -1,5 +1,4 @@
 import { useQuery } from "@tanstack/react-query";
-import { getTopicDetailsApi } from "../services/topic.service";
 import { getBlogDetailsApi } from "../services/blog.service";
 
 export function useBlogDetails(id: string) {

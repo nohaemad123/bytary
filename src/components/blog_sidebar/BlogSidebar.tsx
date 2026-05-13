@@ -2,7 +2,6 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useCategories } from "../../hooks/useCategories";
 import { Link } from "react-router";
-import ads1 from "../../assets/advertise-here.gif";
 import { useAllBlogs } from "../../hooks/useAllBlogs";
 import MiniBlogCard from "../shared_components/mini_blog_card/MiniBlogCard";
 

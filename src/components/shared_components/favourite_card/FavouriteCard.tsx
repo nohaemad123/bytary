@@ -1,9 +1,6 @@
-import React from 'react'
 import type { IFavourite } from '../../../interface/Favourite';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useClinicProducts } from "../../../hooks/useClinicProducts";
-import type { Clinic } from "../../../interface/Clinic";
-import { faMap, faPhoneVolume, faPlus, faTrash } from "@fortawesome/free-solid-svg-icons";
+import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router";
 
 interface favouriteCardProps {
