@@ -1,5 +1,4 @@
 import type { Blog } from "../interface/Blog";
-import type { Topic } from "../interface/Topic";
 import { forthapiClient } from "./api-client";
 
 
