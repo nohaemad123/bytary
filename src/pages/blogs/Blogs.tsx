@@ -9,7 +9,7 @@ export default function Blogs() {
 
     const { blogs, isLoading } = useBlog(Number(categoryId));
 
-
+    if (isLoading) return <p>Loading ...</p>
     return (
         <>
             <h3 className="main_title">Blogs</h3>

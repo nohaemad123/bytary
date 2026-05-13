@@ -3,7 +3,7 @@ import { useCategoryDetails } from "../../hooks/useCategoryDetails";
 import { useBlogDetails } from "../../hooks/useBlogDetails";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarAlt, faTag } from "@fortawesome/free-solid-svg-icons";
-import { faFacebookF, faGooglePlusG, faInstagram, faLinkedin, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 export default function BlogDetails() {
 

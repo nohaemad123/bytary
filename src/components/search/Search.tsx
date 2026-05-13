@@ -1,7 +1,6 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import { Icon } from "leaflet";
-import { useState } from "react";
 import SearchForm from "../search_form/SearchForm";
 
 const customIcon = new Icon({
