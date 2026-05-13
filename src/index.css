@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import 'flowbite';
+@import 'flowbite/dist/flowbite.css';
+
+
+@theme {
+    --color-primary-50: #f0fdf4;
+    --color-primary-100: #dcfce7;
+    --color-primary-200: #bbf7d0;
+    --color-primary-300: #86efac;
+    --color-primary-400: #4ade80;
+    --color-primary-500: #22c55e;
+    --color-primary-600: #92c73f;
+    --color-primary-700: #15803d;
+    --color-primary-800: #14532d;
+    --color-primary-900: #134e28;
+    --color-primary-950: #052f21;
+    --color-mainColor: #f9fafb;
+    --color-secondary: #38455e;
+    --color-third: #f0f0f0;
+
+
+}
+
+@utility container {
+    @apply max-w-screen-xl mx-auto px-2 lg:px-3;
+}
+
+@utility main_title {
+    @apply border-b-2 border-primary-600 inline-block pb-3 w-fit text-3xl font-medium
+}
+
+@keyframes blinkColors {
+
+    0%,
+    100% {
+        color: #16a34a;
+        /* green */
+    }
+
+    50% {
+        color: #dc2626;
+        /* red */
+    }
+}
+
+.blink-icon {
+    animation: blinkColors 1s infinite;
+}
+
+[data-carousel-slide-to] {
+    background-color: gray;
+    /* اللون العادي */
+}
+
+/* dot النشط */
+[data-carousel-slide-to].active {
+    background-color: #2563eb;
+    /* اللون النشط */
+}
