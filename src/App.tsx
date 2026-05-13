@@ -28,7 +28,6 @@ import ClinicRegister from './pages/clinic_register/ClinicRegister';
 import VetRegister from './pages/vets_register/VetsRegister';
 import StoreRegister from './pages/store_register/StoreRegister';
 import PharmacyRegister from './pages/pharmacy_register/PharmacyRegister';
-import { HiLogin } from 'react-icons/hi';
 import Login from './pages/login/Login';
 import Signup from './pages/signup/Signup';
 import ForgetPassword from './pages/forget_password/ForgetPassword';

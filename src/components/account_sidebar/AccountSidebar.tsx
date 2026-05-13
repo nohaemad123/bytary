@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import user_image from "../../assets/1.jpeg";
-import { faArchive, faComments, faEdit, faEnvelope, faLocationDot, faMapMarked, faPhoneAlt, faShieldHalved, faSignOut, faStar, faTags } from "@fortawesome/free-solid-svg-icons";
+import { faArchive, faComments, faEdit, faEnvelope, faLocationDot, faPhoneAlt, faShieldHalved, faSignOut, faStar, faTags } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookF, faGooglePlusG, faInstagram, faTwitter, faWpforms } from "@fortawesome/free-brands-svg-icons";
 import { NavLink } from "react-router";
 
